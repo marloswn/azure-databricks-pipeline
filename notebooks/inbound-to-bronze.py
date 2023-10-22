@@ -25,7 +25,7 @@ df = df.drop('imagens', 'usuario')
 # COMMAND ----------
 
 # DBTITLE 1,Checking the cleaning
-display(df).limit(5)
+df.limit(5).display()
 
 # COMMAND ----------
 
