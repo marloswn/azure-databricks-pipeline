@@ -1,0 +1,9 @@
+{
+	"name": "data-factory-imoveis",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "53a2fc42-7bea-4920-b8ea-5cf07971a02e",
+		"tenantId": "a7fe4cd1-9c6f-41c8-b834-a242408c00db"
+	}
+}
