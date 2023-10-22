@@ -5,7 +5,7 @@ df = spark.read.format('delta').load('dbfs:/mnt/data/bronze/dataset_imoveis/')
 # COMMAND ----------
 
 # DBTITLE 1,Visualizing the JSON in columns
-display(df.select('anuncio.*', 'anuncio.endereco.*')).limit(5)
+df.limit(5).select('anuncio.*', 'anuncio.endereco.*').display()
 
 # COMMAND ----------
 
